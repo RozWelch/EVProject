@@ -19,11 +19,42 @@ h1, h2 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
     letter-spacing: 1px;
+    margin: 30px;
 }
 
 a {
     text-decoration: none;
     color: #006377;
-    margin: 7%;
+    margin: 20%;
     font-size: 120%;
+}
+
+/* circle images of cars */
+
+.circle-container {
+    width: 330px;
+    height: 330px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 10px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg1 {
+    background: url('../images/carsimages_mini350.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-cover-bg2 {
+    background: url('../images/carsimages_sports.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#circle-cover-bg3 {
+    background: url('../images/carsimages_family.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
