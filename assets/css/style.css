@@ -6,10 +6,24 @@
     border: none;
 }
 
-
 body {
-    background: #98d4e6;
+    background: #aeddea;
+    color: #006377;
+    font-size: 130%;
+}
+
+/* main heading */
+
+h1, h2 {
+    text-align: center;
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
     color: #006377;
+    margin: 7%;
+    font-size: 120%;
 }
