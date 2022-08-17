@@ -79,3 +79,11 @@ a {
     margin: auto;
     gap: 4rem;
 }
+
+/* form section */
+
+.form-section {
+    text-align: center;
+    line-height: 230%;
+}
+

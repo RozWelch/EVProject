@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="A calculator for electric vechicle range, and maps for nearest charging points">
+    <meta name="description" content="A calculator for electric vechicle range, and maps for nearest charging points">
     <meta name="keywords"
-        content="electric vechicle range calculator, electric vechicle journey calculator, nearest charging points">
+        content="electric vechicle range calculator, electric vechicle journey calculator, Ireland, nearest charging points">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Electric Vehicle Range Calculator</title>
 </head>
@@ -23,6 +22,52 @@
     <div>
         <h2>step 2 | Select your journey options</h2>
     </div>
+
+    <section class="form-section">
+        <form action="https://formdump.codeinstitute.net/" method="POST" class="journey-form">
+            <label for="currentcharge">Current Charge %</label>
+            <input type="number" id="currcharge" class="charge-input" value="currentcharge" name="current_charge"
+                required>
+
+                <br>
+
+            <label for="passangers">Number of passangers</label>
+            <select id="num_passangers" value="passangers" name="numofpassangers">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <br>
+
+            <label for="aircon">Air Conditioning</label>
+            <input type="radio" id="aircon" value="aircon" name="aircon_on">
+
+            <br>
+
+            <label for="heating">Heating</label>
+            <input type="radio" id="heating" value="heating" name="heating_on">
+
+            <br>
+
+            <label for="from">Journey from</label>
+            <select id="start_destination" value="from" name="from_destination">
+                <option value="1">Dublin</option>
+            </select>
+
+            <label for="to">to</label>
+            <select id="end_destination" value="to" name="to_destination">
+                <option value="1">Limerick</option>
+                <option value="2">Belfast</option>
+                <option value="3">Cork</option>
+            </select>
+
+            <br>
+
+            <input type="submit" value="Calculate" class="submit-button">
+        </form>
+    </section>
 
 
 
