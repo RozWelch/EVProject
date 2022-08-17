@@ -23,31 +23,36 @@
         <h2>step 2 | Select your journey options</h2>
     </div>
 
+    <div class="circle-container" id="select-mini">
+        <div id="circle-cover-bg1"></div>
+        <div id="selected-car-name"></div> 
+    </div>
+    <br>
+    <br>
+
     <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="POST" class="journey-form">
+        <form action="https://formdump.codeinstitute.net/" method="POST" id="journey-form">
             <label for="currentcharge">Current Charge %</label>
             <input type="number" id="currcharge" class="charge-input" value="currentcharge" name="current_charge"
                 required>
 
                 <br>
 
-            <label for="passangers">Number of passangers</label>
-            <select id="num_passangers" value="passangers" name="numofpassangers">
+            <label for="passengers">Number of passengers</label>
+            <select id="num_passengers" value="passengers" name="numofpssengers">
                 <option value="1">1</option>
                 <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
             </select>
 
             <br>
 
             <label for="aircon">Air Conditioning</label>
-            <input type="radio" id="aircon" value="aircon" name="aircon_on">
+            <input type="radio" id="aircon" value="aircon" name="heating_aircon">
 
             <br>
 
             <label for="heating">Heating</label>
-            <input type="radio" id="heating" value="heating" name="heating_on">
+            <input type="radio" id="heating" value="heating" name="heating_aircon">
 
             <br>
 
