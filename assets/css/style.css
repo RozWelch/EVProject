@@ -55,7 +55,7 @@ a {
 }
 
 #circle-cover-bg1 {
-    background: url('../images/carsimages_mini350.jpg') no-repeat center center;
+    background: url('../images/carsimages_mini.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -75,7 +75,7 @@ a {
 #cars-continer {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     margin: auto;
     gap: 4rem;
 }
