@@ -23,23 +23,26 @@
         <h2>step 2 | Select your journey options</h2>
     </div>
 
+    <!-- Mini car image -->
     <div class="circle-container" id="select-mini">
         <div id="circle-cover-bg1"></div>
-        <div id="selected-car-name"></div> 
+        <h3>Mini 2</h3>
     </div>
     <br>
     <br>
 
-    <section class="form-section">
-        <form action="https://formdump.codeinstitute.net/" method="POST" id="journey-form">
+    <!-- Journey options form -->
+    <section id="form-section">
+        <!-- https://formdump.codeinstitute.net/ -->
+        <form action="#" method="POST" id="journey-form">
             <label for="currentcharge">Current Charge %</label>
-            <input type="number" id="currcharge" class="charge-input" value="currentcharge" name="current_charge"
+            <input type="number" min=0 max=100 id="currcharge" class="charge-input" value="currentcharge" name="current_charge"
                 required>
 
-                <br>
+            <br>
 
             <label for="passengers">Number of passengers</label>
-            <select id="num_passengers" value="passengers" name="numofpssengers">
+            <select id="num_passengers" value="passengers" name="numofpassengers">
                 <option value="1">1</option>
                 <option value="2">2</option>
             </select>
@@ -56,10 +59,11 @@
 
             <br>
 
-            <label for="from">Journey from</label>
-            <select id="start_destination" value="from" name="from_destination">
-                <option value="1">Dublin</option>
-            </select>
+            <label for="from">Journey from:  Dublin</label>
+            <!-- <select id="start_destination" value="from" name="from_destination">
+                <option value="1">Dublin</option> 
+                <h2>Dublin</h2>
+            </select> -->
 
             <label for="to">to</label>
             <select id="end_destination" value="to" name="to_destination">
@@ -70,7 +74,7 @@
 
             <br>
 
-            <input type="submit" value="Calculate" class="submit-button">
+            <input type="submit" value="Calculate" id="submit-button">
         </form>
     </section>
 

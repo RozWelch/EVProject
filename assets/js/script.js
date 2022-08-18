@@ -1,19 +1,27 @@
-document.getElementById("select-mini").onclick = function () {
-    location.href = "form.html";
-    
-    let carSelectedname = document.getElementById('selected-car-name');
-    carSelectedname.innerHTML = "<h3>Mini 2</h3>";
 
-}
+// prevent default sumbit action and call handleSubmit function
 
-document.getElementById("select-sports").onclick = function () {
-    location.href = "form.html";
-    
-}
+document.getElementById('submit-button').addEventListener('click', function(event) {
+    handleSubmit(event)
+});
 
-document.getElementById("select-family").onclick = function () {
-    location.href = "form.html";
+
+// take entries from the form and caluclate range distance in km
+function handleSubmit(event) {
     
+    event.preventDefault();
+
+    // Get the input elements
+    let currentCharge = document.getElementById('currcharge');
+    let numPassengers= document.getElementById('num_passengers');
+    let airConOn = document.getElementById('aircon');
+    let heatingOn= document.getElementById('heating');
+    let endDestination= document.getElementById('end-destination');
+
+    // Calculate the range
+    // let finalRange = (currentCharge*(210/100));
+    console.log('journey range');
+
 }
 
 

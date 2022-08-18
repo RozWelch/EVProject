@@ -82,8 +82,10 @@ a {
 
 /* form section */
 
-.form-section {
+#form-section {
     text-align: center;
     line-height: 230%;
+    font-family: 'Source Sans', sans-serif;
+    font-weight: 400;
 }
 
