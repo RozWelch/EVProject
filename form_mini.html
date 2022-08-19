@@ -36,8 +36,8 @@
         <!-- https://formdump.codeinstitute.net/ -->
         <form action="#" method="POST" id="journey-form">
             <label for="currentcharge">Current Charge %</label>
-            <input type="number" min=0 max=100 id="currcharge" class="charge-input" value="currentcharge" name="current_charge"
-                required>
+            <input type="number" min=0 max=100 id="currcharge" class="charge-input" value="currentcharge"
+                name="current_charge" required>
 
             <br>
 
@@ -59,11 +59,7 @@
 
             <br>
 
-            <label for="from">Journey from:  Dublin</label>
-            <!-- <select id="start_destination" value="from" name="from_destination">
-                <option value="1">Dublin</option> 
-                <h2>Dublin</h2>
-            </select> -->
+            <label for="from">Journey from: Dublin</label>
 
             <label for="to">to</label>
             <select id="end_destination" value="to" name="to_destination">
@@ -74,9 +70,22 @@
 
             <br>
 
-            <input type="submit" value="Calculate" id="submit-button">
+            <!-- Calculate range and Open The Modal -->
+            <input type="submit" id="myBtn" value="Calculate">
+
         </form>
     </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="display_results"></div>
+        </div>
+
+    </div>
 
 
 

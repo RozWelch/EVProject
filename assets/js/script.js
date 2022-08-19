@@ -1,28 +1,28 @@
 
-// prevent default sumbit action and call handleSubmit function
+// Get the modal
+var modal = document.getElementById("myModal");
 
-document.getElementById('submit-button').addEventListener('click', function(event) {
-    handleSubmit(event)
-});
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
 
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-// take entries from the form and caluclate range distance in km
-function handleSubmit(event) {
-    
-    event.preventDefault();
-
-    // Get the input elements
-    let currentCharge = document.getElementById('currcharge');
-    let numPassengers= document.getElementById('num_passengers');
-    let airConOn = document.getElementById('aircon');
-    let heatingOn= document.getElementById('heating');
-    let endDestination= document.getElementById('end-destination');
-
-    // Calculate the range
-    // add my final range caluclation here
-    location.href = "results.html";
-    document.getElementById("your_selection").innerHTML = `You selected ${currentCharge} % current charge, and ${numPassengers} passangers, going to ${endDestination}.`;
-    
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.getElementById("display_results").innerHTML = "Add the final results of calculation here";
 }
 
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
