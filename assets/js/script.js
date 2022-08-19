@@ -19,9 +19,10 @@ function handleSubmit(event) {
     let endDestination= document.getElementById('end-destination');
 
     // Calculate the range
-    // let finalRange = (currentCharge*(210/100));
-    console.log('journey range');
-
+    // add my final range caluclation here
+    location.href = "results.html";
+    document.getElementById("your_selection").innerHTML = `You selected ${currentCharge} % current charge, and ${numPassengers} passangers, going to ${endDestination}.`;
+    
 }
 
 
