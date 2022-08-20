@@ -1,4 +1,3 @@
-
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -9,26 +8,30 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
-btn.onclick = function(calculate_range) {
-    //prevent default action
-    calculate_range.preventDefault();
-    //get variables
-    let currentCharge = document.getElementById('currcharge').value;
-    //open modal
-    modal.style.display = "block";
-    //display results
-    document.getElementById("display_results").innerHTML = `The current charge is ${currentCharge}`;
+btn.onclick = function (calculate_range) {
+  //prevent default action
+  calculate_range.preventDefault();
+  //get variables from the journey details form
+  let currentCharge = document.getElementById('currcharge').value;
+  let numPassengers = document.getElementById('num_passengers').value;
+  let airconOn = document.getElementById('aircon').value;
+  let heatingOn = document.getElementById('heating').value;
+  let finalDestination = document.getElementById('end_destination').value;
+  //open modal
+  modal.style.display = "block";
+  //display results
+  document.getElementById("display_results").innerHTML = `The current charge is ${currentCharge}, 
+  the number of passengers is ${numPassengers} , the Air Conditioning is ${airconOn}, the Heating is  ${heatingOn}, and the final destination is ${finalDestination}.`;
 }
 
 // When the user clicks on <span> (x), close the modal
-span.onclick = function() {
+span.onclick = function () {
   modal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
+window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }
-
