@@ -23,6 +23,7 @@ btn.onclick = function (calculate_range) {
   // calculate current range
   let newRange = Math.round(currentCharge*(210/100));
   // reduct range for extra passengers by 1%
+   newRange = Math.round(newRange * (1-0.01*(numPassengers-1)));
   // reduct range for Air Conditioning on by 12.2%
   // reduct range for Heating on by 9.2%
 
