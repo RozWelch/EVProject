@@ -19,13 +19,19 @@ btn.onclick = function (calculate_range) {
   let finalDestination = document.getElementById('end_destination').value;
   //open modal
   modal.style.display = "block";
+
   // calculate current range
-  let newRange = currentCharge*(210/100);
-  // reduct range for extra passengers
+  let newRange = Math.floor(currentCharge*(210/100));
+  // reduct range for extra passengers by 1%
+  // reduct range for Air Conditioning on by 12.2%
+  // reduct range for Heating on by 9.2%
+
+  // calculate if the journey destination is within Range 
+  
 
   //display results
   document.getElementById("display_results").innerHTML = `The your current range is ${newRange}, 
-  the number of passengers is ${numPassengers}, the Air Conditioning is ${airconOn}, the Heating is  ${heatingOn}, and the final destination is ${finalDestination}.`;
+  the number of passengers is ${numPassengers}, the Air Conditioning is ${airconOn}, the Heating is ${heatingOn}, and the final destination is ${finalDestination}.`;
 }
 
 // When the user clicks on <span> (x), close the modal
