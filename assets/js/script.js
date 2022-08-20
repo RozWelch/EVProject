@@ -14,8 +14,8 @@ btn.onclick = function (calculate_range) {
   //get variables from the journey details form
   let currentCharge = document.getElementById('currcharge').value;
   let numPassengers = document.getElementById('num_passengers').value;
-  let airconOn = document.getElementById('aircon').value;
-  let heatingOn = document.getElementById('heating').value;
+  let airconOn = document.getElementById('aircon').checked;
+  let heatingOn = document.getElementById('heating').checked;
   let finalDestination = document.getElementById('end_destination').value;
   //open modal
   modal.style.display = "block";
