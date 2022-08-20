@@ -21,7 +21,7 @@ btn.onclick = function (calculate_range) {
   modal.style.display = "block";
 
   // calculate current range
-  let newRange = Math.floor(currentCharge*(210/100));
+  let newRange = Math.round(currentCharge*(210/100));
   // reduct range for extra passengers by 1%
   // reduct range for Air Conditioning on by 12.2%
   // reduct range for Heating on by 9.2%
