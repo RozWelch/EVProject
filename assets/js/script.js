@@ -32,8 +32,10 @@ btn.onclick = function (calculate_range) {
     newRange = Math.round(newRange*(0.908));
   }
 
-  // calculate if the journey destination is within Range 
-  
+  // check where the final destination is, and the journey length
+  if (finalDestination === '1') {
+    console.log('your destination is limerick');
+  }
 
   //display results
   document.getElementById("display_results").innerHTML = `The your current range is ${newRange} km, 
