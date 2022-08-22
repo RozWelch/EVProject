@@ -23,7 +23,7 @@ h1, h2 {
 }
 
 h2 {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 h3 {
@@ -97,11 +97,35 @@ a {
 /* form section */
 
 #form-section {
-    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 125%;
     line-height: 230%;
-    font-family: 'Source Sans', sans-serif;
-    font-weight: 400;
+    margin: 20px auto;
+    color: #006377;
+    background-color: rgba(222, 240, 247, 0.7);
+    max-width: 400px;
+    left: 8%;
+    padding: 20px;
+    border-radius: 20px;
 }
+
+#calculate_button {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 20px;
+    padding: 5px 15px 5px 10px;
+    text-align: center;
+    font-size: 115%;
+    letter-spacing: 1px;
+    background-color: #006377;
+    color: #fff;
+    border-radius: 6px;
+}
+
+#calculate_button:hover {
+    background-color: #98d4e6;
+    color: #006377;
+}
+
 
 /* The Modal (background) */
 .modal {
