@@ -80,6 +80,20 @@ a {
     gap: 4rem;
 }
 
+#select-mini:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 20px 20px #fff;
+}
+
+#select-sports:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 20px 20px #fff;
+}
+
+#select-family:hover {
+    opacity: 0.7;
+    box-shadow: 0px 0px 20px 20px #fff;
+}
 /* form section */
 
 #form-section {
