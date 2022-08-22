@@ -26,12 +26,17 @@ btn.onclick = function (calculate_range) {
    newRange = Math.round(newRange * (1-0.01*(numPassengers-1)));
   // reduct range for Air Conditioning on by 12.2%
   // reduct range for Heating on by 9.2%
+  if (airconOn) {
+    newRange = Math.round(newRange*(0.878));
+  } else if (heatingOn) {
+    newRange = Math.round(newRange*(0.908));
+  }
 
   // calculate if the journey destination is within Range 
   
 
   //display results
-  document.getElementById("display_results").innerHTML = `The your current range is ${newRange}, 
+  document.getElementById("display_results").innerHTML = `The your current range is ${newRange} km, 
   the number of passengers is ${numPassengers}, the Air Conditioning is ${airconOn}, the Heating is ${heatingOn}, and the final destination is ${finalDestination}.`;
 }
 
