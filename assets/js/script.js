@@ -38,8 +38,7 @@ btn.onclick = function (calculate_range) {
   }
 
   //display results
-  document.getElementById("display_results").innerHTML = `The your current range is ${newRange} km, 
-  the number of passengers is ${numPassengers}, the Air Conditioning is ${airconOn}, the Heating is ${heatingOn}, and the final destination is ${finalDestination}.`;
+  document.getElementById("display_results").innerHTML = `Your current range is ${newRange} km, your journey length is ${finalDestination}km.`;
 }
 
 // When the user clicks on <span> (x), close the modal
