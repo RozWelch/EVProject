@@ -167,7 +167,7 @@ a {
     cursor: pointer;
   }
 
-  #display_results {
+  .modaltext {
     font-family: 'Work Sans', sans-serif;
     margin-top: 20px;
     padding: 5px 15px 5px 10px;

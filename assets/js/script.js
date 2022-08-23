@@ -32,14 +32,19 @@ btn.onclick = function (calculate_range) {
     newRange = Math.round(newRange*(0.908));
   }
 
-  // check where the final destination is, and the journey length
-  if (finalDestination === '1') {
-    console.log('your destination is limerick');
-  }
-
   //display results
-  document.getElementById("display_results").innerHTML = `Your current range is ${newRange} km, your journey length is ${finalDestination}km.`;
+  document.getElementById("display_results").innerHTML = `Your current range is ${newRange} km`;
+
+  // check where the final destination is, and the diplay journey distance
+
+  let journeyDist
+if (finalDestination === '1') {
+  journeyDist = 203;
+  document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Limerick is ${journeyDist}km`;
+} 
 }
+
+
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
