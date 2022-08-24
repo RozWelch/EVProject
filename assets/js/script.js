@@ -21,15 +21,15 @@ btn.onclick = function (calculate_range) {
   modal.style.display = "block";
 
   // calculate current range
-  let newRange = Math.round(currentCharge*(210/100));
+  let newRange = Math.round(currentCharge * (210 / 100));
   // reduct range for extra passengers by 1%
-   newRange = Math.round(newRange * (1-0.01*(numPassengers-1)));
+  newRange = Math.round(newRange * (1 - 0.01 * (numPassengers - 1)));
   // reduct range for Air Conditioning on by 12.2%
   // reduct range for Heating on by 9.2%
   if (airconOn) {
-    newRange = Math.round(newRange*(0.878));
+    newRange = Math.round(newRange * (0.878));
   } else if (heatingOn) {
-    newRange = Math.round(newRange*(0.908));
+    newRange = Math.round(newRange * (0.908));
   }
 
   //display results
@@ -37,24 +37,25 @@ btn.onclick = function (calculate_range) {
 
   // check where the final destination is, and the diplay journey distance
   let journeyDist
-if (finalDestination === '1') {
-  journeyDist = 203;
-  document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Limerick is ${journeyDist}km`;
-} else if (finalDestination === '2') {
-  journeyDist = 105;
-  document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Belfast is ${journeyDist}km`;
-} else if (finalDestination === '3') {
-  journeyDist = 258;
-  document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Cork is ${journeyDist}km`;
-}
+  if (finalDestination === '1') {
+    journeyDist = 203;
+    document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Limerick is ${journeyDist}km`;
+  } else if (finalDestination === '2') {
+    journeyDist = 105;
+    document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Belfast is ${journeyDist}km`;
+  } else if (finalDestination === '3') {
+    journeyDist = 258;
+    document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Cork is ${journeyDist}km`;
+  }
 
   // check if journey range is longer than current range, and if you need to recharge
   let rangeShortfall;
-if (journeyDist > newRange) {
-  rangeShortfall = (journeyDist - newRange);
-  document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is longer than your range, you will need to recharge at ${rangeShortfall}km`;
-  
-}
+  if (journeyDist > newRange) {
+    rangeShortfall = (journeyDist - newRange);
+    document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is longer than your range, you will need to recharge at ${rangeShortfall}km`;
+  } else if (journeyDist <= newRange) {
+    document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is within range. Below is a map of charging points at your destination`;
+  }
 
 }
 
