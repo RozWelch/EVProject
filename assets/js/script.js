@@ -1,3 +1,17 @@
+// Check if Range is between 0 and 100
+function checkRangeNum() {
+  let checkCharge = document.getElementById('currcharge').value;
+  if (checkCharge < 0) {
+    let checkCharge = 0;
+    alert ('Please enter a range between 0 and 100');
+    
+  } else if (checkCharge > 100) {
+    let checkCharge = 100;
+    alert ('Please enter a range between 0 and 100');
+  }
+}
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -7,7 +21,7 @@ var btn = document.getElementById("calculate_button");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal
+// When the user clicks on the calulate button, open the modal
 btn.onclick = function (calculate_range) {
   //prevent default action
   calculate_range.preventDefault();
