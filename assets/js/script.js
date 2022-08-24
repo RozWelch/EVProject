@@ -52,7 +52,7 @@ btn.onclick = function (calculate_range) {
   let rangeShortfall;
   if (journeyDist > newRange) {
     rangeShortfall = (journeyDist - newRange);
-    document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is longer than your range, you will need to recharge at ${rangeShortfall}km`;
+    document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is longer than your range, you will need to recharge at ${newRange}km`;
   } else if (journeyDist <= newRange) {
     document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is within range. Below is a map of charging points at your destination`;
   }
