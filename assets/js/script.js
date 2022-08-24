@@ -47,6 +47,15 @@ if (finalDestination === '1') {
   journeyDist = 258;
   document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Cork is ${journeyDist}km`;
 }
+
+  // check if journey range is longer than current range, and if you need to recharge
+  let rangeShortfall;
+if (journeyDist > newRange) {
+  rangeShortfall = (journeyDist - newRange);
+  document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is longer than your range, you will need to recharge at ${rangeShortfall}km`;
+  
+}
+
 }
 
 // When the user clicks on <span> (x), close the modal
