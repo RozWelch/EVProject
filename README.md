@@ -1,108 +1,214 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome RozWelch,
+# Project 2: Electric Vehicle Range Calculator
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+A website for users of Electric Vehicles to check if their journey is within range. I saw a need for a site that takes into account what effects the number of passengers, air conditioning and heating will have on your range, and to display charging point maps. The site is aimed to appeal to the users - drivers who either own an electric car or are considering purchasing one. 
+A home page allows selection of their vehicle. A form page allows them to enter thier current charge and add in variables for their journey (number of passengers, air conditioning or heating on). They can select their destination. On submitting their form, a modal is displayed. This shows their current range, the journey distance, and if they will need to recharge or if they will make it to their destination on their current charge. The modal also displays a map of charging points, either at their destination or at the point they run low on charge (this API feature is a paid service, so I have not included it on this website, but it is a feature that could be added at a future point)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The live site can be found here: https://add 
 
-## Gitpod Reminders
+## Table of Contents
+* [Responsive Views](#Responsive-views)
+* [User Experience Design (UX)](#User-Experience-Design)
+* [Design](#Design)
+* [Features](#Features)
+* [Testing](#Testing)
+* [Deployment](#Deployment)
+* [Credits](#Credits)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Responsive views
 
-`python3 -m http.server`
+Am I Responsive view of the website on different devices:
 
-A blue button should appear to click: _Make Public_,
+![Responsice Mockup](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/homepage_mockup.jpg)
+![Responsice Mockup](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_mockup.jpg)
+![Responsice Mockup](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/signup_page_mockup.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience Design 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+User stories
+![UX design](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/ux_website.jpg)
 
-A blue button should appear to click: _Make Public_,
+## Design 
 
-Another blue button should appear to click: _Open Browser_.
+The design is fun, easy to read and has a bright, vibrant colour pallet. 
+![Colour Pallet](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/colour_pallet.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Wireframes 
 
-To log into the Heroku toolbelt CLI:
+Initial design wireframes using Balsamiq:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Wireframe Home](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/wireframe_index.jpg)
+![Wireframe Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/wireframe_gallery.jpg)
+![Wireframe Sign up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/wireframe_signup.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Initial design layout 
 
-------
+Initial design layouts using Adobe Illustrator:
 
-## Release History
+![Wireframe Home](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/kidsbookclub_illustrator_design.jpg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Features 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+I aimed to provide a clear, easy to understand and easy to navigate website that would appeal to drivers of Electric Vehicles.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- Navigation 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The fully responsive navigation is on all three pages, it includes links to the Home page, Gallery and Join Up page and is identical in each page to allow for easy navigation.
+  - It is positioned to be easy to view, and styled to be easy to read.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - The main Kids' Bookclub logo also links to the home page.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  UX:  A First Time user will want to be able to easily navigate throughout the site to find content.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Nav Bar](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/navigation.jpg)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __The landing page image__
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - The landing page includes a photograph with the main heading to allow the user to see exactly which who the website is for and locations of bookclubs. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+  UX: A First Time user will want to easily understand the main purpose of the site and learn more about the clubs.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Landing Page](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home_page.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __Why join our Bookclub Section__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - The Why join our Bookclub section allows the parents to see the benefits of their child joining the bookclub, as well as the benefits of reading in general. 
+  - The parents will be encouraged to sign up their child, and children viewing the website will be encouraged to join.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+  UX: A First Time user will want to easily understand the main purpose of the site and learn more about the clubs.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![Main Text](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home-page_maintxt.jpg)
 
-------
+- __Location and times section__
 
-## FAQ about the uptime script
+  - This section will allow users to see the location and times of bookclub groups.  
 
-**Why have you added this script?**
+  UX: A Returning user will want to check location addresses and times of classes.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Meetup Times](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home_page_locations.jpg)
 
-**How will this affect me?**
+- __The Footer__ 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  - The footer section includes links to the relevant social media sites for Kids' Bookclub. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  UX: A First Time user will want to find ways to follow the bookclubs social media platforms.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Footer](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/footer.jpg)
 
-**So….?**
+- __Gallery__
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+  - The gallery will provide the user with supporting images to see what the Bookclubs are like. 
+  - This section is valuable to the parents/guardians as they will see if they would be suitable for thier child, and also of benefit to the child to see other children enjoying the groups. 
 
-**Can I opt out?**
+  UX: A Frequent user will want to see photos from the classes.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_page.jpg)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- __The Sign Up Page__
 
-**Anything more?**
+ - This page will allow the parent/guardians to sign up their child to a bookclub near them. They will be able to specify the area nearest them. 
+ - The user will be asked to submit their name, their child's name and an email address. 
+ - A contact section under the sign up shows the bookclub address, a map, and a youtube video of the latest book.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+ UX : A First Time or Returning user will want to sign their child up for a class.
+ UX : A First Time user will want to find the bookclubs main contact information and location.
 
----
 
-Happy coding!
+![Sign Up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/signup_form.jpg)
+
+
+![Sign Up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/contact_map_youtube.jpg)
+
+
+### Features Left to Implement
+
+- A API Google Maps charging point to show a map at the point when your range runs low (this was a paid service so was not added for this version)
+
+## Testing 
+
+The website was tested on Chrome and Safari browers.
+The website was tested on desktop, laptop, tablet and mobile size screens (Devices tested on: iPhone 11 and 12, Samsung Galaxy S22, iPad, iMac pro 15in screen, iMac 27in screen).
+The links were tested on the deployed site, and the form was tested. 
+All images were resized and saved for web using Adobe Photoshop, which ensured they were compressed for best file size.
+
+Full testing steps: 
+![Site testing steps](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/site_testing.gif)
+
+The code was checked on Chrome Developer tools Lighthouse with results at or close to 100%:
+
+  ![Lighthouse test Homepage](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home_page_lighthousescore.jpg)
+  ![Lighthouse test Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_lighthouse.jpg)
+  ![Lighthouse test Sign up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/signup_lighthouse.jpg)
+
+
+### Validator Testing 
+
+When first put through the W3C validator the following issues arose and were fixed:
+- Removed extra footer div on the gallery and join pages.
+- Removed extra body tag on the gallery page.
+- Changed a Section to a Div on index page (this caused an error as there was no heading on the section).
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+  ![Test Code Homepage](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_home_page.jpg)
+  ![Test Code Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_gallery_page_code.jpg)
+  ![Test Code Sign up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_join_code.jpg)
+  ![Test Code CSS](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_css_code.jpg)
+
+### Unfixed Bugs
+
+There were no unfixed bugs.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps I used to deploy were as follows: 
+  - In my GitHub account I located my repository
+  - I navigate to the Settings tab 
+  - From the source section drop-down menu, the Main branch was selected
+  - Once the master branch has been selected, this deployed my project to the URL below. 
+
+The live link can be found here - https://add
+
+### Project Creation
+The project was created in Git Hub using the Code Institute template.
+
+The following commands were used throughout the project:
+
+* git add . - This command was used to add files to the staging area before commiting.
+* git commit -m "I add commit message here" - This command was used to to commit changes to the local repository.
+* git push - This command is used to push all commited changes to the GitHub repository. 
+
+
+### Run Locally
+1. Navigate to the GitHub [Repository:](https://github.com/RozWelch/kids-bookclub1)
+1. Click the Code drop down menu.
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+1. Open your developement editor of choice and open a terminal window in a directory of your choice.
+1. Use the 'git clone' command in terminal followed by the copied git URL.
+1. A clone of the project will be created locally on your machine.
+
+## Credits 
+
+Resources: WW3 school
+
+I followed this W3 Schools tutorial to make the modal:
+https://www.w3schools.com/howto/howto_css_modals.asp
+
+Acknowledgements: Thanks to my mentor, my fellow students on Slack, Tutoring support and to my friends for helping test the site.
+
+### Content 
+
+- The content for the website was created by me.
+- The calculations for effects of heating and air conditioning was taken from this website: https://www.wired.co.uk/article/
+ev-battery-drain-tips
+
+### Media
+
+- All photos were taken from Freepix website: Car Images: http://www.freepik.com">Designed by rawpixel.com / Freepik
+
+
