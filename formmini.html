@@ -38,8 +38,8 @@
         <!-- https://formdump.codeinstitute.net/ -->
         <form action="#" method="POST" id="journey-form">
             <label for="currentcharge">Current Charge %</label>
-            <input type="number" min=0 max=100 maxlength="3" placeholder="100" onchange="checkRangeNum()" id="currcharge" class="charge-input" 
-                name="currentcharge" required>
+            <input type="number" min=0 max=100 maxlength="3" onchange="checkRangeNum()"
+                id="currcharge" class="charge-input" name="currentcharge" required>
 
             <br>
 
@@ -79,8 +79,7 @@
     </section>
 
     <!-- The Modal for displaying Car Range results-->
-    <div id="myModal" class="modal">
-
+    <div id="resultsModal" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
             <span class="close">&times;</span>
@@ -88,13 +87,20 @@
             <div class="modaltext" id="display_journeydistance"></div>
             <div class="modaltext" id="display_rechargemessage"></div>
             <div id="map">
-                <iframe id="map-iframe" src="https://maps.google.com/maps?q=limerick%20ev%20charging%20stations&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                <iframe id="map-iframe"
+                    src="https://maps.google.com/maps?q=limerick%20ev%20charging%20stations&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
             </div>
         </div>
-
     </div>
 
-
+    <!-- The Modal for displaying alert for entry out of range 0 to 100-->
+    <div id="rangeAlertModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modaltext" id="display_alert">The alert message will go here!</div>
+        </div>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>

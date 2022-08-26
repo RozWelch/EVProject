@@ -129,7 +129,7 @@ a {
 }
 
 
-/* The Modal (background) */
+/* The Modal for Results (background) */
 .modal {
     display: none;
     position: fixed;
@@ -152,6 +152,16 @@ a {
     border-radius: 10px;
     width: 40%;
     height: 600px;
+}
+
+/* Modal displaying out of range 0-100 alert */
+#rangeAlertModal {
+    background-color: #def0f7;
+    margin: 25% auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
 }
 
 /* Google map of charging points */

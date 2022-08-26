@@ -11,15 +11,14 @@ function checkRangeNum() {
   }
 }
 
-
 // Get the modal
-var modal = document.getElementById("myModal");
+const modal = document.getElementById("resultsModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("calculate_button");
+const btn = document.getElementById("calculate_button");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+const span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the calulate button, open the modal
 btn.onclick = function (calculate_range) {
@@ -36,6 +35,7 @@ btn.onclick = function (calculate_range) {
 
   // calculate current range
   let newRange = Math.round(currentCharge * (210 / 100));
+
   // reduct range for extra passengers by 1%
   newRange = Math.round(newRange * (1 - 0.01 * (numPassengers - 1)));
   // reduct range for Air Conditioning on by 12.2%
