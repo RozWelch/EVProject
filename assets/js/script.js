@@ -1,15 +1,13 @@
 // Check if Range is between 0 and 100
-function checkRangeNum() {
-  let checkCharge = document.getElementById('currcharge').value;
-  if (checkCharge < 0) {
-    let checkCharge = 0;
-    alert ('Please enter a range between 0 and 100');
-    
-  } else if (checkCharge > 100) {
-    let checkCharge = 100;
-    alert ('Please enter a range between 0 and 100');
-  }
-}
+
+let checkCharge = document.getElementById('currcharge');
+checkCharge.addEventListener('focusout', (event) => {
+  checkCharge.value = checkCharge.value > 100 
+    ? 100
+    : checkCharge.value < 0
+      ? 0
+      : checkCharge.value;
+});
 
 // Get the modal
 const modal = document.getElementById("resultsModal");
