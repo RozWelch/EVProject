@@ -62,12 +62,15 @@ btn.onclick = function (calculate_range) {
   if (finalDestination === '1') {
     journeyDist = 203;
     document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Limerick is ${journeyDist}km`;
+    document.getElementById("map-iframe").src = "https://bit.ly/3e3kpUq";
   } else if (finalDestination === '2') {
     journeyDist = 105;
     document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Belfast is ${journeyDist}km`;
+    document.getElementById("map-iframe").src = "https://bit.ly/3wxHViL";
   } else if (finalDestination === '3') {
     journeyDist = 258;
     document.getElementById("display_journeydistance").innerHTML = `Your journey distance to Cork is ${journeyDist}km`;
+    document.getElementById("map-iframe").src = "https://bit.ly/3R9H3sU";
   }
 
   // check if journey range is longer than current range, and if you need to recharge
