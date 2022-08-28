@@ -31,15 +31,15 @@ User stories
 ## Design 
 
 The design is clean, modern and easy to navigate. 
-![Colour Pallet](https://github.com/EVProject/)
+![Colour Pallet](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/evcolourpallet.jpg)
 
 ### Wireframes 
 
 Initial design wireframes using Balsamiq:
 
-![Wireframe Home](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/wireframe_index.jpg)
-![Wireframe Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/wireframe_gallery.jpg)
-![Wireframe Sign up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/wireframe_signup.jpg)
+![Wireframe Home](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV-Project2-1-homepage.jpg)
+![Wireframe Form page](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV-Project2-2-formpage.jpg)
+![Wireframe Modal](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV-Project2-3-modal.jpg)
 
 ### Initial design layout 
 
@@ -53,10 +53,10 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
 - Navigation 
 
-  - The fully responsive navigation is on all three pages, it includes links to the Home page, Gallery and Join Up page and is identical in each page to allow for easy navigation.
+  - The home page allows you to select your vehicle.
   - It is positioned to be easy to view, and styled to be easy to read.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-  - The main Kids' Bookclub logo also links to the home page.
+  - On the form page, once the calculate button is pressed, a modal opens with your range results. 
+  - The main EV logo also links to the home page.
 
   UX:  A First Time user will want to be able to easily navigate throughout the site to find content.
 
@@ -185,7 +185,7 @@ The following commands were used throughout the project:
 
 
 ### Run Locally
-1. Navigate to the GitHub [Repository:](https://github.com/RozWelch/kids-bookclub1)
+1. Navigate to the GitHub [Repository:](https://github.com/RozWelch/EVProject)
 1. Click the Code drop down menu.
 1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
 1. Open your developement editor of choice and open a terminal window in a directory of your choice.
