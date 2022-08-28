@@ -39,9 +39,9 @@
         <form action="#" method="POST" id="journey-form">
             <label for="currentcharge">Current Charge %</label>
             <input type="number" min="0" max="100" maxlength="3" onchange="checkRangeNum()"
-                id="currcharge" class="charge-input" name="currentcharge" required />
+                id="currcharge" class="charge-input" name="currentcharge" required/>
 
-            <br>
+            <hr id="white_underline">
 
             <label for="passengers">Number of passengers</label>
             <select id="num_passengers" value="passengers" name="numofpassengers">
@@ -49,17 +49,17 @@
                 <option value="2">2</option>
             </select>
 
-            <br>
+            <hr id="white_underline">
 
             <label for="aircon">Air Conditioning</label>
             <input type="radio" id="aircon" value="aircon" name="heating_aircon">
 
-            <br>
+            <hr id="white_underline">
 
             <label for="heating">Heating</label>
             <input type="radio" id="heating" value="heating" name="heating_aircon">
 
-            <br>
+            <hr id="white_underline">
 
             <label for="from">Journey from: Dublin</label>
 
@@ -70,7 +70,7 @@
                 <option value="3">Cork</option>
             </select>
 
-            <br>
+            <hr id="white_underline">
 
             <!-- Calculate range and Open The Modal -->
             <input type="submit" id="calculate_button" value="Calculate">

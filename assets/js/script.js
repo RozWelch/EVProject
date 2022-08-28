@@ -12,11 +12,9 @@
 function checkRangeNum() {
   let checkCharge = document.getElementById('currcharge').value;
   if (checkCharge < 0) {
-    let checkCharge = 0;
     alert ('Please enter a range between 0 and 100');
     
   } else if (checkCharge > 100) {
-    let checkCharge = 100;
     alert ('Please enter a range between 0 and 100');
   }
 }
