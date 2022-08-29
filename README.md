@@ -19,9 +19,9 @@ The live site can be found here: https://add
 
 Am I Responsive view of the website on different devices:
 
-![Responsice Mockup](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/homepage_mockup.jpg)
-![Responsice Mockup](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_mockup.jpg)
-![Responsice Mockup](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/signup_page_mockup.jpg)
+![Responsice Mockup](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/form_page_amiresponsive.jpg)
+![Responsice Mockup](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/homepage_amiresponsive.jpg)
+
 
 ## User Experience Design 
 
