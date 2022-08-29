@@ -19,8 +19,8 @@ The live site can be found here: https://add
 
 Am I Responsive view of the website on different devices:
 
-![Responsice Mockup](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/form_page_amiresponsive.jpg)
 ![Responsice Mockup](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/homepage_amiresponsive.jpg)
+![Responsice Mockup](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/form_page_amiresponsive.jpg)
 
 
 ## User Experience Design 
