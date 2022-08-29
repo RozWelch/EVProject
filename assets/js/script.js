@@ -3,7 +3,7 @@
 function checkRangeNum() {
   let checkCharge = parseInt(document.getElementById('currcharge').value);
   if (checkCharge < 0 || checkCharge > 100) {
-    alert('Please enter a range between 0 and 100');
+    alert ('Please enter a range between 0 and 100');
   }
 }
 
@@ -18,6 +18,7 @@ const span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the calulate button, open the modal
 btn.onclick = function (calculate_range) {
+  
   //prevent default action
   calculate_range.preventDefault();
   //get variables from the journey details form
@@ -65,7 +66,7 @@ btn.onclick = function (calculate_range) {
   let rangeShortfall;
   if (journeyDist > newRange) {
     rangeShortfall = (journeyDist - newRange);
-    document.getElementById("display_rechargemessage").innerHTML = `Journey is longer than your range, see map below for charging points`;
+    document.getElementById("display_rechargemessage").innerHTML = `Journey is longer than your range, see map below for recharging points`;
   } else if (journeyDist <= newRange) {
     document.getElementById("display_rechargemessage").innerHTML = `Journey is within range. Below is a map of charging points at your destination`;
   }
