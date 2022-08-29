@@ -42,6 +42,10 @@ a {
     font-size: 120%;
 }
 
+#alertmessage {
+    font-size: 70%;
+}
+
 /* circle images of cars */
 
 .circle-container {

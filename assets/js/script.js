@@ -1,10 +1,10 @@
 // Check if Range is between 0 and 100
 
-function checkRangeNum(event) {
-  let checkCharge = document.getElementById('currcharge').value;
-  if (checkCharge < 0 || checkCharge > 100) 
+function checkRangeNum() {
+  let checkCharge = parseInt(document.getElementById('currcharge').value);
+  if (checkCharge < 0 || checkCharge > 100) {
     alert ('Please enter a range between 0 and 100');
-    event.stopPropagation();
+  }
 }
 
 // Get the modal
