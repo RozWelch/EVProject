@@ -38,7 +38,7 @@
         <!-- https://formdump.codeinstitute.net/ -->
         <form action="#" method="POST" id="journey-form">
             <label for="currentcharge">Current Charge %</label>
-            <input type="number" min="0" max="100" maxlength="3" onchange="checkRangeNum()" id="currcharge"
+            <input type="number" min="0" max="100" maxlength="3" onblur="checkRangeNum()" id="currcharge"
                 class="charge-input" name="currentcharge" required/>
             <div id="alertmessage"></div>
 
@@ -93,6 +93,7 @@
             </div>
         </div>
     </div>
+
 
     <script src="assets/js/script.js"></script>
 </body>

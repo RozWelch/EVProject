@@ -189,6 +189,7 @@ input[type="radio"] {
     height: 600px;
 }
 
+
 /* Google map of charging points */
 #map-iframe {
     height: 350px;
@@ -221,7 +222,7 @@ input[type="radio"] {
 }
 
 #display_rechargemessage {
-    font-size: 90%;
+    font-size: 95%;
 }
 
 /* Media queries */
@@ -230,7 +231,7 @@ input[type="radio"] {
 @media screen and (max-width: 480px) {
 
     body {
-        font-size: 100%;
+        font-size: 105%;
     }
 
     h1,
