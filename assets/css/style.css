@@ -216,7 +216,7 @@ input[type="radio"] {
     margin-top: 20px;
     padding: 5px 5px 5px 10px;
     text-align: center;
-    font-size: 135%;
+    font-size: 150%;
     letter-spacing: 1px;
 }
 
@@ -230,7 +230,7 @@ input[type="radio"] {
 @media screen and (max-width: 480px) {
 
     body {
-        font-size: 100%;
+        font-size: 110%;
     }
 
     h1,

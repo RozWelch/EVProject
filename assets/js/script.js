@@ -3,7 +3,7 @@
 function checkRangeNum() {
   let checkCharge = parseInt(document.getElementById('currcharge').value);
   if (checkCharge < 0 || checkCharge > 100) {
-    alert ('Please enter a range between 0 and 100');
+    alert('Please enter a range between 0 and 100');
   }
 }
 
@@ -49,15 +49,15 @@ btn.onclick = function (calculate_range) {
   let journeyDist;
   if (finalDestination === '1') {
     journeyDist = 203;
-    document.getElementById("display_journeydistance").innerHTML = `Distance to Limerick ${journeyDist}km`;
+    document.getElementById("display_journeydistance").innerHTML = `Distance to Limerick ${journeyDist} km`;
     document.getElementById("map-iframe").src = "https://bit.ly/3e3kpUq";
   } else if (finalDestination === '2') {
     journeyDist = 105;
-    document.getElementById("display_journeydistance").innerHTML = `Distance to Belfast ${journeyDist}km`;
+    document.getElementById("display_journeydistance").innerHTML = `Distance to Belfast ${journeyDist} km`;
     document.getElementById("map-iframe").src = "https://bit.ly/3wxHViL";
   } else if (finalDestination === '3') {
     journeyDist = 258;
-    document.getElementById("display_journeydistance").innerHTML = `Distance to Cork ${journeyDist}km`;
+    document.getElementById("display_journeydistance").innerHTML = `Distance to Cork ${journeyDist} km`;
     document.getElementById("map-iframe").src = "https://bit.ly/3R9H3sU";
   }
 
@@ -65,9 +65,9 @@ btn.onclick = function (calculate_range) {
   let rangeShortfall;
   if (journeyDist > newRange) {
     rangeShortfall = (journeyDist - newRange);
-    document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is longer than your range, see map below for recharging points`;
+    document.getElementById("display_rechargemessage").innerHTML = `Journey is longer than your range, see map below for charging points`;
   } else if (journeyDist <= newRange) {
-    document.getElementById("display_rechargemessage").innerHTML = `Your journey distance is within range. Below is a map of charging points at your destination`;
+    document.getElementById("display_rechargemessage").innerHTML = `Journey is within range. Below is a map of charging points at your destination`;
   }
 
 };
