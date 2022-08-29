@@ -1,22 +1,10 @@
 // Check if Range is between 0 and 100
 
-// let checkCharge = document.getElementById('currcharge');
-// checkCharge.addEventListener('focusout', (event) => {
-//   checkCharge.value = checkCharge.value > 100 
-//     ? 100
-//     : checkCharge.value < 0
-//       ? 0
-//       : checkCharge.value;
-// });
-
-function checkRangeNum() {
+function checkRangeNum(event) {
   let checkCharge = document.getElementById('currcharge').value;
-  if (checkCharge < 0) {
+  if (checkCharge < 0 || checkCharge > 100) 
     alert ('Please enter a range between 0 and 100');
-    
-  } else if (checkCharge > 100) {
-    alert ('Please enter a range between 0 and 100');
-  }
+    event.stopPropagation();
 }
 
 // Get the modal
@@ -94,4 +82,4 @@ window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-};
+}

@@ -152,7 +152,7 @@ input[type="radio"] {
     height: .9em;
     border: 0.3em solid #00788f;
     border-radius: 50%;
-  }
+}
 
 #currcharge {
     font-family: 'Work Sans', sans-serif;
@@ -185,16 +185,6 @@ input[type="radio"] {
     height: 600px;
 }
 
-/* Modal displaying out of range 0-100 alert */
-#rangeAlertModal {
-    background-color: #def0f7;
-    margin: 25% auto;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    height: 300px;
-}
-
 /* Google map of charging points */
 #map-iframe {
     height: 350px;
@@ -224,4 +214,40 @@ input[type="radio"] {
     text-align: center;
     font-size: 115%;
     letter-spacing: 1px;
+}
+
+/* Media queries */
+
+/* For mobile screen sizes from 480px wide and down */
+@media screen and (max-width: 480px) {
+
+    body {
+        font-size: 100%;
+    }
+
+    h1,
+    h2 {
+        margin: 10px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .circle-container {
+        width: 300px;
+        height: 300px;
+    }
+
+    #cars-continer {
+        width: 90%;
+        gap: 3rem;
+    }
+
+    .modal-content {
+        margin: 5% auto;
+        padding: 10px;
+        width: 95%;
+        height: 600px;
+    }
 }
