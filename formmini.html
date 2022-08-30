@@ -37,10 +37,24 @@
     <section id="form-section">
         <!-- https://formdump.codeinstitute.net/ -->
         <form action="#" method="POST" id="journey-form">
-            <label for="currentcharge">Current Charge %</label>
+            
+            <!-- <label for="currentcharge">Current Charge %</label>
             <input type="number" min="0" max="100" maxlength="3" onblur="checkRangeNum()" id="currcharge"
-                class="charge-input" name="currentcharge" required/>
-            <div id="alertmessage"></div>
+                class="charge-input" name="currentcharge" required/> -->
+
+            <label for="currentcharge">Current Charge %</label>
+            <select name="currentcharge" id="currcharge">
+                <option value="10%">10</option>
+                <option value="20%">20</option>
+                <option value="30%">30</option>
+                <option value="40%">40</option>
+                <option value="50%">50</option>
+                <option value="60%">60</option>
+                <option value="70%">70</option>
+                <option value="80%">80</option>
+                <option value="90%">90</option>
+                <option value="100%">100</option>
+            </select>
 
             <hr id="white_underline">
 

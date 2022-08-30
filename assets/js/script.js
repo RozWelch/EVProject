@@ -1,12 +1,12 @@
 // Check if Range is between 0 and 100
 
-function checkRangeNum() {
-  let checkCharge = parseInt(document.getElementById('currcharge').value);
-  if (checkCharge < 0 || checkCharge > 100) {
-    alert ('Please enter a range between 0 and 100');
-
-  }
-}
+// function checkRangeNum() {
+//   let checkCharge = parseInt(document.getElementById('currcharge').value);
+//   if (checkCharge < 0 || checkCharge > 100) {
+//     alert ('Please enter a range between 0 and 100');
+//     return false;
+//   }
+// }
 
     // Get the modal
     const modal = document.getElementById("resultsModal");
@@ -23,7 +23,7 @@ function checkRangeNum() {
       //prevent default action
       calculate_range.preventDefault();
       //get variables from the journey details form
-      let currentCharge = document.getElementById('currcharge').value;
+      let currentCharge = parseInt(document.getElementById('currcharge').value);
       let numPassengers = document.getElementById('num_passengers').value;
       let airconOn = document.getElementById('aircon').checked;
       let heatingOn = document.getElementById('heating').checked;
