@@ -138,9 +138,10 @@ Full testing steps:
 
 The code was checked on Chrome Developer tools Lighthouse with results at or close to 100%:
 
-  ![Lighthouse test Homepage](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home_page_lighthousescore.jpg)
-  ![Lighthouse test Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_lighthouse.jpg)
-  ![Lighthouse test Sign up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/signup_lighthouse.jpg)
+  ![Lighthouse test Homepage](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/lighthouse_scores_homepage.jpg)
+  ![Lighthouse test Minipage](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/lighthouse_scores_mini.jpg)
+  ![Lighthouse test Sportspage](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/lighthouse_scores_sports.jpg)
+  ![Lighthouse test Sportspage](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/lighthouse_scores_family.jpg)
 
 
 ### Validator Testing 
