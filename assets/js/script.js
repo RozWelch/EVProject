@@ -21,8 +21,21 @@ btn.onclick = function (calculate_range) {
   //open modal
   modal.style.display = "block";
 
-  // calculate current range
-  let newRange = Math.round(currentCharge * (210 / 100));
+  // calculate current range of car type
+  let rangeCalculation;
+  let carTypeRange = document.getElementById("cartype").innerHTML;
+  if (carTypeRange === "Mini 2") {
+    rangeCalculation = 210;
+  }
+  if (carTypeRange === "Sports 2") {
+    rangeCalculation = 280;
+  }
+  if (carTypeRange === "Family 4") {
+    rangeCalculation = 340;
+  }
+
+  let newRange = Math.round(currentCharge * (rangeCalculation / 100));
+  
 
   // reduct range for extra passengers by 1%
   newRange = Math.round(newRange * (1 - 0.01 * (numPassengers - 1)));
