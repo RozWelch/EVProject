@@ -141,6 +141,25 @@ a {
     box-shadow: none;
 }
 
+#reset_button {
+        font-family: 'Work Sans', sans-serif;
+        margin: 20px;
+        padding: 5px 15px 5px 10px;
+        text-align: center;
+        font-size: 105%;
+        letter-spacing: 1px;
+        background-color: #888;
+        color: #fff;
+        border-radius: 6px;
+        box-shadow: 2px 2px 4px #00788f;
+    }
+    
+    #calculate_button:hover {
+        background-color: #6ec3dc;
+        color: #006377;
+        box-shadow: none;
+    }
+
 select {
     font-family: 'Work Sans', sans-serif;
     color: #006377;
