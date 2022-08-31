@@ -43,9 +43,10 @@ Initial design wireframes using Balsamiq:
 
 ### Initial design layout 
 
-Initial design layouts using Adobe Illustrator:
+Initial design layouts, flowchart and logic behind calculations (I used Adobe Illustrator for this):
 
-![Wireframe Home](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/kidsbookclub_illustrator_design.jpg)
+![Initial Design](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV_Range_Calculator-V3-design.jpg)
+![Flowchart and logic](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV_Range_Calculator-V3-flowchart.jpg)
 
 ## Features 
 
