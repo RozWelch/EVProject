@@ -4,7 +4,7 @@ document.getElementById("select-mini").onclick = function() {
 };
 
 document.getElementById("select-sports").onclick = function() {
-    location.href = "formmini.html";    
+    location.href = "formsports.html";    
 };
 
 document.getElementById("select-family").onclick = function() {
