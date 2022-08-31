@@ -124,7 +124,7 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
 ### Features Left to Implement
 
-- A API Google Maps charging point to show a map at the point when your range runs low (this was a paid service so was not added for this version)
+- An API Google Maps charging point to show a map at the point when your range runs low (this was a paid service so was not added for this version)
 
 ## Testing 
 

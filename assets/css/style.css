@@ -141,10 +141,10 @@ i {
     text-align: center;
     font-size: 105%;
     letter-spacing: 1px;
-    background-color: #6ec3dc;
+    background-color: #00788f;
     color: #fff;
     border-radius: 6px;
-    box-shadow: 2px 2px 4px #00788f;
+    box-shadow: 2px 2px 4px #0c4b58;
 }
 
 #calculate_button:hover {
