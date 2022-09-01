@@ -56,64 +56,49 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 - Navigation 
 
   - The home page allows you to select your vehicle.
-  - It is positioned to be easy to view, and styled to be easy to read.
+  - It is positioned to be easy to view and select your vehicle.
   - On the form page, once the calculate button is pressed, a modal opens with your range results. 
   - The main EV logo also links to the home page.
 
   UX:  A First Time user will want to be able to easily navigate throughout the site to find content.
 
 
-![Nav Bar](https://tobeadded)
+![car selection](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/main_car_selection.jpg)
 
-- __The landing page image__
+- __The Range Calculation form__
 
-  - The landing page text to be added 
+  - The form allows the user to easily enter their journey details. 
+  - The use of drop down menues and radio buttons ensures data out of range cannot be entered.
+  - A reset button allows the form to be cleared.
 
-  UX: A First Time user will want to easily....
+  UX: A First Time user will want to easily input their journey details.
 
-![Landing Page](https://tobeadded)
+![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/form_section.jpg)
 
-- __tobeadded__
+- __Back to Car Selection link__
 
-  - tobeadded
+  - A link is added under the form to link back to the car selection page. 
 
-  UX: A First Time user will tobeadded
+  UX: A First Time user will to easily navigate back to the index page if they wish to select a different car.
 
-![Main Text](https://tobeadded
+![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/backtocarselection.jpg)
 
-- __tobeadded__
+- __The Modal with Results__
 
-  - This section will tobeadded.  
+  - This section will display the car's range after the effects of number of passengers/air conditioning/heating are taken into account.  
+  - This range and the journey distance are compared, and the user is informed if the journey is within range or not. 
+  - A map of charging points is shown. I would have liked to use an API Google map to show charging points where they needed to recharge, but this was not implemented on this version as it was a pain service.
 
-  UX: A Returning user will tobeadded.
+  UX: A Returning user will want to see their range and if their journey is within range. A Google map of charging points is displayed. 
 
-![Meetup Times](https://tobeadded)
-
-- __tobeadded__ 
-
-  - The footer section tobeadded
-
-  UX: A First Time user will want to tobeadded.
-
-![Footer](https://tobeadded)
-
-- __tobeadded__
-
-  - The gallery will provide the user with supporting images to see what the Bookclubs are like. 
-  - This section is valuable to the parents/guardians as they will see if they would be suitable for thier child, and also of benefit to the child to see other children enjoying the groups. 
-
-  UX: A Frequent user will want to see photos from the classes.
-
-![Gallery](https://tobeadded)
-
-
-
+![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/modal_results.jpg)
+![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/modal_results_map.jpg)
 
 ### Features Left to Implement
 
 - An API Google Maps charging point to show a map at the point when your range runs low (this was a paid service so was not added for this version)
 - More options would be added for more starting points and destinations
-- An animation would be added to the modal opening page
+- An fade-in and fade-out animation would be added to the modal opening page
 
 ## Testing 
 
