@@ -27,7 +27,7 @@ Am I Responsive view of the website on different devices:
 ## User Experience Design 
 
 User stories
-![UX design](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/ux_website.jpg)
+![UX design](https://tobeadded)
 
 ## Design 
 
@@ -63,43 +63,41 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   UX:  A First Time user will want to be able to easily navigate throughout the site to find content.
 
 
-![Nav Bar](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/navigation.jpg)
+![Nav Bar](https://tobeadded)
 
 - __The landing page image__
 
-  - The landing page includes a photograph with the main heading to allow the user to see exactly which who the website is for and locations of bookclubs. 
+  - The landing page text to be added 
 
-  UX: A First Time user will want to easily understand the main purpose of the site and learn more about the clubs.
+  UX: A First Time user will want to easily....
 
-![Landing Page](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home_page.jpg)
+![Landing Page](https://tobeadded)
 
-- __Why join our Bookclub Section__
+- __tobeadded__
 
-  - The Why join our Bookclub section allows the parents to see the benefits of their child joining the bookclub, as well as the benefits of reading in general. 
-  - The parents will be encouraged to sign up their child, and children viewing the website will be encouraged to join.
+  - tobeadded
 
-  UX: A First Time user will want to easily understand the main purpose of the site and learn more about the clubs.
+  UX: A First Time user will tobeadded
 
-![Main Text](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home-page_maintxt.jpg)
+![Main Text](https://tobeadded
 
-- __Location and times section__
+- __tobeadded__
 
-  - This section will allow users to see the location and times of bookclub groups.  
+  - This section will tobeadded.  
 
-  UX: A Returning user will want to check location addresses and times of classes.
+  UX: A Returning user will tobeadded.
 
-![Meetup Times](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/home_page_locations.jpg)
+![Meetup Times](https://tobeadded)
 
-- __The Footer__ 
+- __tobeadded__ 
 
-  - The footer section includes links to the relevant social media sites for Kids' Bookclub. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section tobeadded
 
-  UX: A First Time user will want to find ways to follow the bookclubs social media platforms.
+  UX: A First Time user will want to tobeadded.
 
-![Footer](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/footer.jpg)
+![Footer](https://tobeadded)
 
-- __Gallery__
+- __tobeadded__
 
   - The gallery will provide the user with supporting images to see what the Bookclubs are like. 
   - This section is valuable to the parents/guardians as they will see if they would be suitable for thier child, and also of benefit to the child to see other children enjoying the groups. 
@@ -108,20 +106,7 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
 ![Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_page.jpg)
 
-- __The Sign Up Page__
 
- - This page will allow the parent/guardians to sign up their child to a bookclub near them. They will be able to specify the area nearest them. 
- - The user will be asked to submit their name, their child's name and an email address. 
- - A contact section under the sign up shows the bookclub address, a map, and a youtube video of the latest book.
-
- UX : A First Time or Returning user will want to sign their child up for a class.
- UX : A First Time user will want to find the bookclubs main contact information and location.
-
-
-![Sign Up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/signup_form.jpg)
-
-
-![Sign Up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/contact_map_youtube.jpg)
 
 
 ### Features Left to Implement
@@ -138,7 +123,7 @@ The links were tested on the deployed site, and the form was tested.
 All images were resized and saved for web using Adobe Photoshop, which ensured they were compressed for best file size.
 
 Full testing steps: 
-![Site testing steps](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/site_testing.gif)
+![Site testing steps](https://tobeadded)
 
 The code was checked on Chrome Developer tools Lighthouse with results at or close to 100%:
 
