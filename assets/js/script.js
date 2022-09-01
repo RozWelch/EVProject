@@ -38,14 +38,16 @@ btn.onclick = function (calculate_range) {
   
 
   // reduct range for extra passengers by 1%
-  newRange = Math.round(newRange * (1 - 0.01 * (numPassengers - 1)));
+  // newRange = Math.round(newRange * (1 - 0.01 * (numPassengers - 1)));
   // reduct range for Air Conditioning on by 12.2%
   // reduct range for Heating on by 9.2%
   if (airconOn) {
     newRange = Math.round(newRange * (0.878));
   } else if (heatingOn) {
     newRange = Math.round(newRange * (0.908));
-  }
+  } else {
+    newRange = Math.round(newRange * (1 - 0.01 * (numPassengers - 1)))
+  };
 
   //display results
   document.getElementById("display_results").innerHTML = `Current range ${newRange} km`;

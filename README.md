@@ -123,7 +123,7 @@ The links were tested on the deployed site, and the form was tested.
 All images were resized and saved for web using Adobe Photoshop, which ensured they were compressed for best file size.
 
 Full testing steps: 
-![Site testing steps](https://tobeadded)
+![Site testing steps](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/site_testing_EV.gif)
 
 The code was checked on Chrome Developer tools Lighthouse with results at or close to 100%:
 
