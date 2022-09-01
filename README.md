@@ -127,6 +127,8 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 ### Features Left to Implement
 
 - An API Google Maps charging point to show a map at the point when your range runs low (this was a paid service so was not added for this version)
+- More options would be added for more starting points and destinations
+- An animation would be added to the modal opening page
 
 ## Testing 
 
@@ -149,19 +151,24 @@ The code was checked on Chrome Developer tools Lighthouse with results at or clo
 ### Validator Testing 
 
 When first put through the W3C validator the following issues arose and were fixed:
-- Removed extra footer div on the gallery and join pages.
-- Removed extra body tag on the gallery page.
-- Changed a Section to a Div on index page (this caused an error as there was no heading on the section).
-
+- Changed a Section to a Div on form page (this caused an error as there was no heading on the section).
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://rozwelch.github.io/EVProject/index.html)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+- Javascript
+When first put through JS Hint, the following issues arose and were fixed:
+- Semicolons were missing at the end of 3 statements, this was fixed.
+- There were warnings about using ES6 (eg : 'template literal syntax' is only available in ES6 (use 'esversion: 6').)
+- No errors were found when passing through JS Hint [JSHint validator](https://jshint.com/)
 
-  ![Test Code Homepage](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_home_page.jpg)
-  ![Test Code Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_gallery_page_code.jpg)
-  ![Test Code Sign up](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_join_code.jpg)
-  ![Test Code CSS](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/validate_css_code.jpg)
+  ![Test Code Homepage](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/homepage_htmlvalidated.jpg)
+  ![Test Code Mini](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/mini_html_valid.jpg)
+  ![Test Code Sports](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/sports_html_valid.jpg)
+  ![Test Code Family](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/family_html_valid.jpg)
+  ![Test Code CSS](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/CSS_jigsaw_valid.jpg)
+  ![Test Code JSHint1](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/javascript_validated.jpg)
+  ![Test Code JSHint2](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/javascript_homepage_jshint.jpg)
 
 ### Unfixed Bugs
 
