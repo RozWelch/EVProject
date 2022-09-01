@@ -182,7 +182,7 @@ There were no unfixed bugs.
   - From the source section drop-down menu, the Main branch was selected
   - Once the master branch has been selected, this deployed my project to the URL below. 
 
-The live link can be found here - https://add
+The live link can be found here - https://rozwelch.github.io/EVProject/index.html
 
 ### Project Creation
 The project was created in Git Hub using the Code Institute template.
