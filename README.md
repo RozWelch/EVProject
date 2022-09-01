@@ -104,7 +104,7 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
   UX: A Frequent user will want to see photos from the classes.
 
-![Gallery](https://github.com/RozWelch/kids-bookclub1/blob/main/assets/readme_images/gallery_page.jpg)
+![Gallery](https://tobeadded)
 
 
 
