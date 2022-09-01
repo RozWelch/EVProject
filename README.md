@@ -91,7 +91,6 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
   UX: A Returning user will want to see their range and if their journey is within range. A Google map of charging points is displayed. 
 
-![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/modal_results.jpg)
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/modal_results_map.jpg)
 
 ### Features Left to Implement
