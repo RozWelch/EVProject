@@ -60,11 +60,12 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   - On the form page, once the calculate button is pressed, a modal opens with your range results. 
   - The main EV logo also links to the home page.
 
-  UX:  As a First Time User, I want to easily navigate the site so that I can select my vehicle type.
-       As a First Time User, I want to easily easily enter my journey details so that I can calculate my range.
-       As a First Time User, I want to easily easily return to the form page so that I can calculate range again.
-       As a First Time User, I want to easily return to the main page so that I can select a different vehicle type.
-       As a Returning User, I want to easily easily enter my journey details so that I can calculate my range.
+  UX:
+  - As a First Time User, I want to easily navigate the site so that I can select my vehicle type.
+  - As a First Time User, I want to easily easily enter my journey details so that I can calculate my range.
+  - As a First Time User, I want to easily easily return to the form page so that I can calculate range again.
+  - As a First Time User, I want to easily return to the main page so that I can select a different vehicle type.
+  - As a Returning User, I want to easily easily enter my journey details so that I can calculate my range.
 
 
 ![car selection](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/main_car_selection.jpg)
@@ -75,7 +76,8 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   - The use of drop down menues and radio buttons ensures data out of range cannot be entered.
   - A reset button allows the form to be cleared.
 
-  UX:   As a First Time or Returning User, I want to easily easily enter my journey details so that I can calculate my range.
+  UX:
+  - As a First Time or Returning User, I want to easily easily enter my journey details so that I can calculate my range.
 
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/form_section.jpg)
 
@@ -83,7 +85,8 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
   - A link is added under the form to link back to the car selection page. 
 
-  UX:   As a First Time or Returning User, I want to easily return to the main page so that I can select a different vehicle type.
+  UX:
+  - As a First Time or Returning User, I want to easily return to the main page so that I can select a different vehicle type.
 
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/backtocarselection.jpg)
 
@@ -93,8 +96,9 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   - This range and the journey distance are compared, and the user is informed if the journey is within range or not. 
   - A map of charging points is shown. I would have liked to use an API Google map to show charging points where they needed to recharge, but this was not implemented on this version as it was a pain service.
 
-  UX: As a First Time or Returning User, I want to easily see and understand my calculated results so that I can see when a recharge is needed.
-      As a First Time or Returning User, I want to see a map of recharging points at my destination.
+  UX:
+  - As a First Time or Returning User, I want to easily see and understand my calculated results so that I can see when a recharge is needed.
+  - As a First Time or Returning User, I want to see a map of recharging points at my destination.
 
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/modal_results_map.jpg)
 
