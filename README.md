@@ -60,7 +60,11 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   - On the form page, once the calculate button is pressed, a modal opens with your range results. 
   - The main EV logo also links to the home page.
 
-  UX:  A First Time user will want to be able to easily navigate throughout the site to find content.
+  UX:  As a First Time User, I want to easily navigate the site so that I can select my vehicle type.
+       As a First Time User, I want to easily easily enter my journey details so that I can calculate my range.
+       As a First Time User, I want to easily easily return to the form page so that I can calculate range again.
+       As a First Time User, I want to easily return to the main page so that I can select a different vehicle type.
+       As a Returning User, I want to easily easily enter my journey details so that I can calculate my range.
 
 
 ![car selection](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/main_car_selection.jpg)
@@ -71,7 +75,7 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   - The use of drop down menues and radio buttons ensures data out of range cannot be entered.
   - A reset button allows the form to be cleared.
 
-  UX: A First Time user will want to easily input their journey details.
+  UX:   As a First Time or Returning User, I want to easily easily enter my journey details so that I can calculate my range.
 
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/form_section.jpg)
 
@@ -79,7 +83,7 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 
   - A link is added under the form to link back to the car selection page. 
 
-  UX: A First Time user will to easily navigate back to the index page if they wish to select a different car.
+  UX:   As a First Time or Returning User, I want to easily return to the main page so that I can select a different vehicle type.
 
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/backtocarselection.jpg)
 
@@ -89,7 +93,8 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
   - This range and the journey distance are compared, and the user is informed if the journey is within range or not. 
   - A map of charging points is shown. I would have liked to use an API Google map to show charging points where they needed to recharge, but this was not implemented on this version as it was a pain service.
 
-  UX: A Returning user will want to see their range and if their journey is within range. A Google map of charging points is displayed. 
+  UX: As a First Time or Returning User, I want to easily see and understand my calculated results so that I can see when a recharge is needed.
+      As a First Time or Returning User, I want to see a map of recharging points at my destination.
 
 ![range form](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/modal_results_map.jpg)
 
@@ -139,9 +144,11 @@ When first put through JS Hint, the following issues arose and were fixed:
   ![Test Code JSHint1](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/javascript_validated.jpg)
   ![Test Code JSHint2](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/javascript_homepage_jshint.jpg)
 
-### Unfixed Bugs
+### Issues and Bugs
 
 There were no unfixed bugs.
+
+When first designing the form, I had an input field that allowed a number input. I had set the min max and required attributes in html, however a user was still able to input a number outside of the range 0-100. I wrote some javascript to check if the number was within range, and then show an alert modal if it was outside range. However the user was still able to enter a number outside of range when they closed the modal. In furture I may be able to use Bootstrap validation to validate a number. For the best user experience, without warning modals, the best solution decided upon was a drop down menu for range input. 
 
 ## Deployment
 
