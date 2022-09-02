@@ -133,7 +133,6 @@ When first put through the W3C validator the following issues arose and were fix
 - Javascript
 When first put through JS Hint, the following issues arose and were fixed:
 - Semicolons were missing at the end of 3 statements, this was fixed.
-- There were warnings about using ES6 (eg : 'template literal syntax' is only available in ES6 (use 'esversion: 6').)
 - No errors were found when passing through JS Hint [JSHint validator](https://jshint.com/)
 
   ![Test Code Homepage](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/homepage_htmlvalidated.jpg)
@@ -146,9 +145,16 @@ When first put through JS Hint, the following issues arose and were fixed:
 
 ### Issues and Bugs
 
-There were no unfixed bugs.
+- There were no unfixed bugs.
 
-When first designing the form, I had an input field that allowed a number input. I had set the min max and required attributes in html, however a user was still able to input a number outside of the range 0-100. I wrote some javascript to check if the number was within range, and then show an alert modal if it was outside range. However the user was still able to enter a number outside of range when they closed the modal. In furture I may be able to use Bootstrap validation to validate a number. For the best user experience, without warning modals, the best solution decided upon was a drop down menu for range input. 
+- Fixed Bug: When first designing the form, I had an input field that allowed a number input. I had set the min max and required attributes in html, however a user was still able to input a number outside of the range 0-100. I wrote some javascript to check if the number was within range, and then show an alert modal if it was outside range. However the user was still able to enter a number outside of range when they closed the modal. In furture I may be able to use Bootstrap validation to validate a number. For the best user experience, without warning modals, the best solution decided upon was a drop down menu for range input. 
+
+- Known Issue: An error shows on the console: "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'." This comes from the Google maps I found this information on the issue: "google.maps.event.addDomListener() is deprecated, use the standard addEventListener() method instead: https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener
+The feature will continue to work and there is no plan to decommission it."
+
+I found more information on that issue here: - https://stackoverflow.com/questions/69626677/error-with-permissions-policy-header-unrecognized-feature-interest-cohort-e
+
+In a future version this issue may be fixed, I found further information here: - https://blog.sucuri.net/2021/10/how-to-set-up-a-content-security-policy-csp-in-3-steps.html
 
 ## Deployment
 
