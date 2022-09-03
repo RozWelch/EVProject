@@ -4,7 +4,7 @@
 A website for users of Electric Vehicles to check if their journey is within range, and show map of charging points. I saw a need for a site that takes into account what effects the number of passengers, air conditioning and heating will have on your range, and to display charging point maps. The site is designed to appeal to the users - drivers who either own an electric car or are considering purchasing one. 
 A home page allows selection of their vehicle. A form page allows them to enter their current charge and add in variables for their journey (number of passengers, air conditioning or heating on). They can select their destination. On submitting their form, a modal is displayed. This shows their current range, the journey distance, and if they will need to recharge or if they will make it to their destination on their current charge. The modal also displays a map of charging points, either at their destination or at the point they run low on charge (this API feature is a paid service, so I have not included it on this website, but it is a feature that could be added at a future point)
 
-The live site can be found here: https://rozwelch.github.io/EVProject/index.html
+The live site can be found here: https://rozwelch.github.io/evProject/index.html
 
 ## Table of Contents
 * [Responsive Views](#Responsive-views)
@@ -38,16 +38,16 @@ The design is clean, modern and easy to navigate.
 
 Initial design wireframes using Balsamiq:
 
-![Wireframe Home](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV-Project2-1-homepage.jpg)
-![Wireframe Form page](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV-Project2-2-formpage.jpg)
-![Wireframe Modal](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV-Project2-3-modal.jpg)
+![Wireframe Home](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/wireframe-homepage.jpg)
+![Wireframe Form page](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/wireframe-formpage.jpg)
+![Wireframe Modal](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/wireframe-modal.jpg)
 
 ### Initial design layout 
 
 Initial design layouts, flowchart and logic behind calculations (I used Adobe Illustrator for this):
 
-![Initial Design](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV_Range_Calculator-V3-design.jpg)
-![Flowchart and logic](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/EV_Range_Calculator-V3-flowchart.jpg)
+![Initial Design](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/initial-design.jpg)
+![Flowchart and logic](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/initial-design-flowchart.jpg)
 
 ## Features 
 
@@ -116,7 +116,7 @@ The links were tested on the deployed site, and the form was tested.
 All images were resized and saved for web using Adobe Photoshop, which ensured they were compressed for best file size.
 
 Full testing steps: 
-![Site testing steps](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/site_testing_EV.gif)
+![Site testing steps](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/site_testing_ev.gif)
 
 The code was checked on Chrome Developer tools Lighthouse with results at or close to 100%:
 
