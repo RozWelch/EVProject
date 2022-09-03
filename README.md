@@ -1,8 +1,8 @@
 
 # Project 2: Electric Vehicle Range Calculator
 
-A website for users of Electric Vehicles to check if their journey is within range, and show map of charging points. I saw a need for a site that takes into account what effects the number of passengers, air conditioning and heating will have on your range, and to display charging point maps. The site is designed to appeal to the users - drivers who either own an electric car or are considering purchasing one. 
-A home page allows selection of their vehicle. A form page allows them to enter their current charge and add in variables for their journey (number of passengers, air conditioning or heating on). They can select their destination. On submitting their form, a modal is displayed. This shows their current range, the journey distance, and if they will need to recharge or if they will make it to their destination on their current charge. The modal also displays a map of charging points, either at their destination or at the point they run low on charge (this API feature is a paid service, so I have not included it on this website, but it is a feature that could be added at a future point)
+A website for users of Electric Vehicles to check if their journey is within range, and show map of charging points. I saw a need for a site that conveniently calculates what factors such as the number of passengers, air conditioning and heating will have on the range of an electric vehicle, and to display charging point maps. The site is designed to appeal to the users - drivers who either own an electric vehicle or are considering purchasing one. 
+A home page allows selection of their vehicle type. A form page allows them to enter their current charge and add in variables for their journey (number of passengers, air conditioning or heating on). They can select their destination. On submitting their form, a modal is displayed. This shows their current range, the journey distance, and if they will need to recharge or if they will make it to their destination on their current charge. The modal also displays a map of charging points, either at their destination or at the point they run low on charge (this API feature is a paid service, so I have not included it on this website, but it is a feature that could be added at a future point)
 
 The live site can be found here: https://rozwelch.github.io/EVProject/index.html
 
@@ -111,7 +111,7 @@ I aimed to provide a clear, easy to understand and easy to navigate website that
 ## Testing 
 
 The website was tested on Chrome and Safari browers.
-The website was tested on desktop, laptop, tablet and mobile size screens (Devices tested on: iPhone 11 and 12, Samsung Galaxy S22, iPad, iMac pro 15in screen, iMac 27in screen).
+The website was tested on desktop, laptop, tablet and mobile size screens (Devices tested on: iPhone 11, 12 and 13Pro, Samsung Galaxy S22, iPad, iMac pro 15in screen, iMac 27in screen).
 The links were tested on the deployed site, and the form was tested. 
 All images were resized and saved for web using Adobe Photoshop, which ensured they were compressed for best file size.
 
@@ -135,7 +135,7 @@ When first put through the W3C validator the following issues arose and were fix
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 - Javascript
-When first put through JS Hint, the following issues arose and were fixed:
+- When first put through JS Hint, the following issues arose and were fixed:
 - Semicolons were missing at the end of 3 statements, this was fixed.
 - No errors were found when passing through JS Hint [JSHint validator](https://jshint.com/)
 
@@ -151,7 +151,7 @@ When first put through JS Hint, the following issues arose and were fixed:
 
 - There were no unfixed bugs.
 
-- Fixed Bug: When first designing the form, I had an input field that allowed a number input. I had set the min max and required attributes in html, however a user was still able to input a number outside of the range 0-100. I wrote some javascript to check if the number was within range, and then show an alert modal if it was outside range. However the user was still able to enter a number outside of range when they closed the modal. In furture I may be able to use Bootstrap validation to validate a number. For the best user experience, without warning modals, the best solution decided upon was a drop down menu for range input. 
+- Fixed Bug: When first designing the form, I had an input field that allowed a number input. I had set the min max and required attributes in html, however a user was still able to input a number outside of the range 0-100. I wrote some javascript to check if the number was within range, and then show an alert modal if it was outside range. However the user was still able to enter a number outside of range when they closed the modal. In future I may be able to use Bootstrap validation to validate a number. For the best user experience, without warning modals, the best solution decided upon was a drop down menu for range input. 
 
 - Known Issue: An error shows on the console: "Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'." This comes from the Google maps I found this information on the issue: "google.maps.event.addDomListener() is deprecated, use the standard addEventListener() method instead: https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener
 The feature will continue to work and there is no plan to decommission it."
