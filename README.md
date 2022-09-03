@@ -4,7 +4,7 @@
 A website for users of Electric Vehicles to check if their journey is within range, and show map of charging points. I saw a need for a site that takes into account what effects the number of passengers, air conditioning and heating will have on your range, and to display charging point maps. The site is designed to appeal to the users - drivers who either own an electric car or are considering purchasing one. 
 A home page allows selection of their vehicle. A form page allows them to enter their current charge and add in variables for their journey (number of passengers, air conditioning or heating on). They can select their destination. On submitting their form, a modal is displayed. This shows their current range, the journey distance, and if they will need to recharge or if they will make it to their destination on their current charge. The modal also displays a map of charging points, either at their destination or at the point they run low on charge (this API feature is a paid service, so I have not included it on this website, but it is a feature that could be added at a future point)
 
-The live site can be found here: https://rozwelch.github.io/evProject/index.html
+The live site can be found here: https://rozwelch.github.io/EVProject/index.html
 
 ## Table of Contents
 * [Responsive Views](#Responsive-views)
@@ -27,7 +27,7 @@ Am I Responsive view of the website on different devices:
 ## User Experience Design 
 
 User stories
-![UX design](https://tobeadded)
+![UX design](https://github.com/RozWelch/EVProject/blob/main/assets/readme-images/ux-userstories.jpg)
 
 ## Design 
 
